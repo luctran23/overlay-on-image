@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	
+}
+body {
+	background: linear-gradient(powderblue, pink);
+	background-repeat: no-repeat;
+	height: 1000px;
+}
+.profile {
+	position: relative;
+	width: 30%;
+}
+img {
+	display: block;
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #008CBA;
+	opacity: 0;
+}
+.profile:hover .overlay{
+	opacity: 0.9;
+}
+.text {
+	color: #fff;
+	font-size: 40px;
+	position: absolute;
+	top: 40%;
+	left:20%;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 10px;
+}
